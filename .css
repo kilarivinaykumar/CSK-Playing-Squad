@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: rgb(224, 221, 13);
+}
+#crick{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 30px;
+}
+.kvk{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px rgba(119, 175, 14, 0.731);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: rgb(126, 126, 18);
+    border-radius: 30px;
+}
+/*
+.kvk:hover{
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    transform: translatex(50px) translateY(50px);
+}*/
+body{
+   background-image: url('https://w0.peakpx.com/wallpaper/689/917/HD-wallpaper-ms-dhoni-chennai-super-kings-cricket-csk-definitely-not-india-sports.jpg');
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.kvk:hover{
+    background-image: url('https://img.jagranjosh.com/images/2023/May/3052023/ipl-2023-winner-chennai-super-kings-csk.webp');
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   color: rgb(20, 149, 10);
+   
+
+}
